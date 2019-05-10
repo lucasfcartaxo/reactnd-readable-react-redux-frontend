@@ -6,9 +6,10 @@ Você precisará usar o servidor, que está disponível em https://github.com/lu
 
 ## Manual de Instalação
 
-Na diretorio do projeto execute:
-### `npm install` para instalar as dependencias
-### `npm start` para executar a aplicação
+Na diretorio do projeto execute: <br>
+`npm install` para instalar as dependencias <br>  
+
+`npm start` para executar a aplicação 
 
 
 Por padrão a aplicação vai abrir na seguinte URL [http://localhost:3000](http://localhost:3000), copie e cole essa URL no seu Browser de preferencia.
