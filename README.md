@@ -1,13 +1,8 @@
 Este projeto foi criado com o [Create React App](https://github.com/facebook/create-react-app).
 
-## Requeridos !
+## Importante !
 
-Você precisará usar o servidor, que está disponível em https://github.com/lucasfcartaxo/reactnd-readable-react-redux-backend
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/brolam/reactnd-readable/master/docs/homepage-screen.png" width="900" />
-</p>  
-
+Você precisará executar o servidor, que está disponível na pasta server do projeto.
 
 ## Manual de Instalação
 
@@ -30,6 +25,11 @@ O projeto Readable é um projeto solicitado no segundo modulo do nanodegree de d
   <li>Redux</li>
   <li>Bootstrap</li>
 </ul>
+
+<p align="center"><b>Projeto Readable </b></p>
+<p align="center">
+  <img src="principal.jpg" width="700" />
+</p>  
 
  Você pode ler mais sobre o create react app em <br>[Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
