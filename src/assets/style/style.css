@@ -1,0 +1,46 @@
+.teste {
+    font-size: 36px;
+    color: #ffffff;
+    font-weight: bold;
+    text-shadow: 2px 2px #000000;
+}
+
+.teste2 {
+    background-color: #6014d2;
+     
+}
+
+.fab {
+    color: #ffffff;
+    font-size: 36px;
+  }
+
+.space {
+    color: #ffffff;
+    margin-top: 2%;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #6014d2;
+    border-radius: 5px;
+    font-size: 23px;
+    font-weight: bold;
+    background-color: #6014d2;
+    box-shadow: 5px 7px #8c8c8c;
+}
+
+a {
+    color: #ffffff;
+}
+
+a:hover {
+    color: #ffffff;
+}
+
+.fas {
+
+float: right;
+color: #ffffff;
+font-size: 35px;
+text-shadow: 2px 2px #000000;
+}
+
