@@ -4,6 +4,11 @@ Este projeto foi criado com o [Create React App](https://github.com/facebook/cre
 
 Você precisará usar o servidor, que está disponível em https://github.com/lucasfcartaxo/reactnd-readable-react-redux-backend
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/brolam/reactnd-readable/master/docs/homepage-screen.png" width="900" />
+</p>  
+
+
 ## Manual de Instalação
 
 Na diretorio do projeto execute: <br>
