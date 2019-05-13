@@ -4,7 +4,7 @@ import Category from '../components/Category'
 class Categories extends Component {
 
   render() {
-      const name = ["Todos","React","Redux","Javascript"]
+      const name = ["Todos","React","Redux","Udacity"]
     return (
         <div className='container space'>
             <nav class="nav nav-pills flex-column flex-sm-row">

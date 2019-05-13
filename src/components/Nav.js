@@ -11,6 +11,12 @@ class NavBar extends Component {
           <i class="fab fa-react"></i>
              <span className="teste"> Readable</span>
           </a>
+
+          <a class="navbar-brand testeborda" href="#teste">
+          <i class="fas fa-plus-circle newpost"></i>
+             <span className="newpost"> New Post </span>
+          </a>
+       
         </nav>
         
       </div>
