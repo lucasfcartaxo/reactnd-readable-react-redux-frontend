@@ -1,14 +1,12 @@
 import React, { Component } from 'react';
 import style from '../assets/style/style.css'
+import NavBar from '../components/Nav'
 
 class Category extends Component {
 
   render() {
     return (
-                <a class="flex-sm-fill text-sm-center nav-link separator" href="#">{this.props.name}
-                {this.props.name === 'Udacity' ? null :   
-                <i class="fas fa-angle-right teste32"></i> }
-                </a>   
+              <NavBar />
     )
   }
 }

@@ -4,13 +4,32 @@ import Categories from '../components/Categories'
 import PostList from '../components/PostList'
 import style from '../assets/style/style.css'
 
+import { connect } from 'react-redux'
+import { fetchCategories } from '../actions'
+
 class App extends Component {
 
+  componentDidMount() {
+    this.props.fetchCategories()
+  }
+
+
+  categories = () => {
+    if( this.props.categories.allCategories ) {
+      const { allCategories } = this.props.categories
+
+      return (
+        <Categories categories={allCategories}/>
+      )
+    }
+  }
+
   render() {
+
     return (
       <div>
           <Navbar />
-          <Categories />
+            { this.categories()}
           <PostList />
           
      </div>
@@ -18,5 +37,19 @@ class App extends Component {
   }
 }
 
+function mapStateToProps({categories}) {
+  return {
+    categories,
+  }
+}
 
-export default App
+function mapDispatchToProps(dispatch) {
+  return {
+    fetchCategories: () => dispatch(fetchCategories())
+  }
+}
+
+export default connect(
+  mapStateToProps,
+  mapDispatchToProps
+)(App)
