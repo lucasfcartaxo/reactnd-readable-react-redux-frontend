@@ -28,7 +28,7 @@ O projeto Readable é um projeto solicitado no segundo modulo do nanodegree de d
 
 <p align="center"><b>Projeto Readable </b></p>
 <p align="center">
-  <img src="principal.jpg" width="700" />
+  <img src="principal2.jpg" width="700" />
 </p>  
 
  Você pode ler mais sobre o create react app em <br>[Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
